@@ -1,5 +1,5 @@
 # Bank Cards Rebound
-
+Implementei esse [layout](https://dribbble.com/shots/14073550-Bank-Cards-Rebound) que encontrei no Dribbble com SwiftUI no iOS 13.
 
 ## Screenshots
 <p align="center">
