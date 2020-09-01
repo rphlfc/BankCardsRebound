@@ -13,6 +13,9 @@
 		645BA2DC24FDAF9900A17FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645BA2DB24FDAF9900A17FAC /* Assets.xcassets */; };
 		645BA2DF24FDAF9900A17FAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645BA2DE24FDAF9900A17FAC /* Preview Assets.xcassets */; };
 		645BA2E224FDAF9900A17FAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645BA2E024FDAF9900A17FAC /* LaunchScreen.storyboard */; };
+		645BA2EB24FDBDD900A17FAC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645BA2EA24FDBDD900A17FAC /* CardView.swift */; };
+		645BA2ED24FDC4F300A17FAC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 645BA2EC24FDC4F300A17FAC /* README.md */; };
+		6473BE0224FDE0830070E9C7 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6473BE0124FDE0830070E9C7 /* CarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		645BA2DE24FDAF9900A17FAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		645BA2E124FDAF9900A17FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		645BA2E324FDAF9900A17FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645BA2EA24FDBDD900A17FAC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = BankCardsRebound/CardView.swift; sourceTree = SOURCE_ROOT; };
+		645BA2EC24FDC4F300A17FAC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6473BE0124FDE0830070E9C7 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		645BA2C924FDAF9700A17FAC = {
 			isa = PBXGroup;
 			children = (
+				645BA2EC24FDC4F300A17FAC /* README.md */,
 				645BA2D424FDAF9700A17FAC /* BankCardsRebound */,
 				645BA2D324FDAF9700A17FAC /* Products */,
 			);
@@ -56,6 +63,7 @@
 		645BA2D424FDAF9700A17FAC /* BankCardsRebound */ = {
 			isa = PBXGroup;
 			children = (
+				645BA2E924FDAFA400A17FAC /* Views */,
 				645BA2D524FDAF9700A17FAC /* AppDelegate.swift */,
 				645BA2D724FDAF9700A17FAC /* SceneDelegate.swift */,
 				645BA2D924FDAF9700A17FAC /* ContentView.swift */,
@@ -73,6 +81,15 @@
 				645BA2DE24FDAF9900A17FAC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		645BA2E924FDAFA400A17FAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				645BA2EA24FDBDD900A17FAC /* CardView.swift */,
+				6473BE0124FDE0830070E9C7 /* CarouselView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +152,7 @@
 			files = (
 				645BA2E224FDAF9900A17FAC /* LaunchScreen.storyboard in Resources */,
 				645BA2DF24FDAF9900A17FAC /* Preview Assets.xcassets in Resources */,
+				645BA2ED24FDC4F300A17FAC /* README.md in Resources */,
 				645BA2DC24FDAF9900A17FAC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,8 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6473BE0224FDE0830070E9C7 /* CarouselView.swift in Sources */,
 				645BA2D624FDAF9700A17FAC /* AppDelegate.swift in Sources */,
 				645BA2D824FDAF9700A17FAC /* SceneDelegate.swift in Sources */,
+				645BA2EB24FDBDD900A17FAC /* CardView.swift in Sources */,
 				645BA2DA24FDAF9700A17FAC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +308,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BankCardsRebound/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BankCardsRebound/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +328,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BankCardsRebound/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BankCardsRebound/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
